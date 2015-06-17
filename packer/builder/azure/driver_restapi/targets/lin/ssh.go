@@ -7,7 +7,7 @@ package lin
 import (
 	"code.google.com/p/go.crypto/ssh"
 	"fmt"
-	"github.com/MSOpenTech/packer-azure/packer/builder/azure/driver_restapi/constants"
+	"github.com/ttysteale/packer-azure/packer/builder/azure/driver_restapi/constants"
 	"github.com/mitchellh/multistep"
 )
 

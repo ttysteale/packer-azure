@@ -6,8 +6,8 @@ package win
 
 import (
 	"fmt"
-	"github.com/MSOpenTech/packer-azure/packer/builder/azure/driver_restapi/constants"
-	"github.com/MSOpenTech/packer-azure/packer/builder/azure/driver_restapi/request"
+	"github.com/ttysteale/packer-azure/packer/builder/azure/driver_restapi/constants"
+	"github.com/ttysteale/packer-azure/packer/builder/azure/driver_restapi/request"
 	"github.com/mitchellh/multistep"
 	"github.com/mitchellh/packer/packer"
 )
@@ -32,6 +32,7 @@ func (s *StepCreateVm) Run(state multistep.StateBag) multistep.StepAction {
 	var err error
 
 	ui.Say("Creating Temporary Azure VM...")
+        ui.Say(fmt.Sprintf("Temporary RDP Pass: %s", s.Password))
 
 	osImageName := state.Get(constants.OsImageName).(string)
 	if len(osImageName) == 0 {

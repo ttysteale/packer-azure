@@ -5,7 +5,7 @@
 package response
 
 import (
-	"github.com/MSOpenTech/packer-azure/packer/builder/azure/driver_restapi/response/model"
+	"github.com/ttysteale/packer-azure/packer/builder/azure/driver_restapi/response/model"
 	"io"
 )
 

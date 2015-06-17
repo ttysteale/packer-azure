@@ -10,7 +10,7 @@ import (
 	"bufio"
 	"bytes"
 	"errors"
-	"github.com/MSOpenTech/packer-azure/mod/pkg/crypto/tls"
+	"github.com/ttysteale/packer-azure/mod/pkg/crypto/tls"
 	"io"
 	"net/textproto"
 	"net/url"

@@ -1,4 +1,4 @@
-packer-azure [![Build Status](https://travis-ci.org/MSOpenTech/packer-azure.svg)](https://travis-ci.org/MSOpenTech/packer-azure)
+packer-azure [![Build Status](https://travis-ci.org/ttysteale/packer-azure.svg)](https://travis-ci.org/ttysteale/packer-azure)
 =============
 
 Packer is an open source tool for creating identical machine images for multiple platforms from a single source configuration. For an introduction to Packer, check out documentation at http://www.packer.io/intro/index.html.
@@ -55,11 +55,11 @@ You can execute the plugin from both Windows and Linux dev-boxes (clients).
 	* export PATH=$PATH:$GOPATH/bin
   * sudo apt-get install git
   * sudo apt-get install mercurial meld
-  * go get github.com/MSOpenTech/packer-azure/packer/builder/azure/driver_restapi
+  * go get github.com/ttysteale/packer-azure/packer/builder/azure/driver_restapi
   * go get github.com/hashicorp/yamux
   * go get github.com/hashicorp/go-msgpack/codec
-  * go install -tags 'restapi' github.com/MSOpenTech/packer-azure/packer/plugin/packer-builder-azure
-  * go install github.com/MSOpenTech/packer-azure/packer/plugin/packer-provisioner-azure-custom-script-extension
+  * go install -tags 'restapi' github.com/ttysteale/packer-azure/packer/plugin/packer-builder-azure
+  * go install github.com/ttysteale/packer-azure/packer/plugin/packer-provisioner-azure-custom-script-extension
   * copy built plugins from $GOPATH/bin to you Packer folder 
    
 ### Mac OSX dev-box
@@ -73,11 +73,11 @@ To build and install on a OS X dev machine you will need to install Go and the M
 	* export GOROOT=/usr/local/go
 	* export GOPATH=$HOME/go
 	* export PATH=$PATH:$GOPATH/bin
-	* go get github.com/MSOpenTech/packer-azure/packer/builder/azure/driver_restapi
+	* go get github.com/ttysteale/packer-azure/packer/builder/azure/driver_restapi
 	* go get github.com/hashicorp/yamux
     * go get github.com/hashicorp/go-msgpack/codec
-  	* go install -tags 'restapi' github.com/MSOpenTech/packer-azure/packer/plugin/packer-builder-azure
-  	* go install github.com/MSOpenTech/packer-azure/packer/plugin/packer-provisioner-azure-custom-script-extension
+  	* go install -tags 'restapi' github.com/ttysteale/packer-azure/packer/plugin/packer-builder-azure
+  	* go install github.com/ttysteale/packer-azure/packer/plugin/packer-provisioner-azure-custom-script-extension
  * copy built plugins from $GOPATH/bin to you Packer folder
 
 

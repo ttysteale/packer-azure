@@ -6,11 +6,11 @@ package win
 
 import (
 	"fmt"
-	"github.com/MSOpenTech/packer-azure/packer/builder/azure/driver_restapi/constants"
-	azureservice "github.com/MSOpenTech/packer-azure/packer/builder/azure/driver_restapi/request"
-	"github.com/MSOpenTech/packer-azure/packer/builder/azure/driver_restapi/response"
-	storageservice "github.com/MSOpenTech/packer-azure/packer/builder/azure/driver_restapi/storage_service/request"
-	"github.com/MSOpenTech/packer-azure/packer/communicator/azureVmCustomScriptExtension"
+	"github.com/ttysteale/packer-azure/packer/builder/azure/driver_restapi/constants"
+	azureservice "github.com/ttysteale/packer-azure/packer/builder/azure/driver_restapi/request"
+	"github.com/ttysteale/packer-azure/packer/builder/azure/driver_restapi/response"
+	storageservice "github.com/ttysteale/packer-azure/packer/builder/azure/driver_restapi/storage_service/request"
+	"github.com/ttysteale/packer-azure/packer/communicator/azureVmCustomScriptExtension"
 	"github.com/mitchellh/multistep"
 	"github.com/mitchellh/packer/packer"
 	"log"

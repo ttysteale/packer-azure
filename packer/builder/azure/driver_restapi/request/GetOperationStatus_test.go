@@ -14,8 +14,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/MSOpenTech/packer-azure/mod/pkg/net/http"
-	"github.com/MSOpenTech/packer-azure/packer/builder/azure/driver_restapi/response/model"
+	"github.com/ttysteale/packer-azure/mod/pkg/net/http"
+	"github.com/ttysteale/packer-azure/packer/builder/azure/driver_restapi/response/model"
 )
 
 func TestWaitForOperation_returns_when_succeeded(t *testing.T) {

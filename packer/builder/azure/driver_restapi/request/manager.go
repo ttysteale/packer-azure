@@ -17,11 +17,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/MSOpenTech/packer-azure/mod/pkg/crypto/tls"
-	"github.com/MSOpenTech/packer-azure/mod/pkg/net/http"
+	"github.com/ttysteale/packer-azure/mod/pkg/crypto/tls"
+	"github.com/ttysteale/packer-azure/mod/pkg/net/http"
 
-	"github.com/MSOpenTech/packer-azure/packer/builder/azure/driver_restapi/response/model"
-	"github.com/MSOpenTech/packer-azure/packer/builder/azure/driver_restapi/settings"
+	"github.com/ttysteale/packer-azure/packer/builder/azure/driver_restapi/response/model"
+	"github.com/ttysteale/packer-azure/packer/builder/azure/driver_restapi/settings"
 )
 
 const apiVersion = "2014-06-01" // default API version

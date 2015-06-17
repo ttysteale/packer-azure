@@ -11,7 +11,7 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/MSOpenTech/packer-azure/mod/pkg/crypto/tls"
+	"github.com/ttysteale/packer-azure/mod/pkg/crypto/tls"
 	"io"
 	"io/ioutil"
 	"mime"

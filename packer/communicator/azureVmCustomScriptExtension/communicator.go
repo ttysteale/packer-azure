@@ -15,11 +15,11 @@ import (
 	"path/filepath"
 
 	"code.google.com/p/go-uuid/uuid"
-	azureservice "github.com/MSOpenTech/packer-azure/packer/builder/azure/driver_restapi/request"
-	"github.com/MSOpenTech/packer-azure/packer/builder/azure/driver_restapi/response"
-	"github.com/MSOpenTech/packer-azure/packer/builder/azure/driver_restapi/response/model"
-	storageservice "github.com/MSOpenTech/packer-azure/packer/builder/azure/driver_restapi/storage_service/request"
-	"github.com/MSOpenTech/packer-azure/packer/builder/azure/driver_restapi/utils"
+	azureservice "github.com/ttysteale/packer-azure/packer/builder/azure/driver_restapi/request"
+	"github.com/ttysteale/packer-azure/packer/builder/azure/driver_restapi/response"
+	"github.com/ttysteale/packer-azure/packer/builder/azure/driver_restapi/response/model"
+	storageservice "github.com/ttysteale/packer-azure/packer/builder/azure/driver_restapi/storage_service/request"
+	"github.com/ttysteale/packer-azure/packer/builder/azure/driver_restapi/utils"
 	"time"
 )
 

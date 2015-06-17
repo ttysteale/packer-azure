@@ -6,8 +6,8 @@
 package request_tests
 
 import (
-	"github.com/MSOpenTech/packer-azure/packer/builder/azure/driver_restapi/cert"
-	"github.com/MSOpenTech/packer-azure/packer/builder/azure/driver_restapi/response"
+	"github.com/ttysteale/packer-azure/packer/builder/azure/driver_restapi/cert"
+	"github.com/ttysteale/packer-azure/packer/builder/azure/driver_restapi/response"
 	"testing"
 )
 

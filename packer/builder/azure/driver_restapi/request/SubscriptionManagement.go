@@ -10,7 +10,7 @@ import (
 	"encoding/base64"
 	"encoding/xml"
 	"fmt"
-	"github.com/MSOpenTech/packer-azure/packer/builder/azure/driver_restapi/constants"
+	"github.com/ttysteale/packer-azure/packer/builder/azure/driver_restapi/constants"
 	"github.com/mitchellh/go-homedir"
 	"io/ioutil"
 	"log"

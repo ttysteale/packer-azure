@@ -14,7 +14,7 @@ import (
 	"compress/gzip"
 	"errors"
 	"fmt"
-	"github.com/MSOpenTech/packer-azure/mod/pkg/crypto/tls"
+	"github.com/ttysteale/packer-azure/mod/pkg/crypto/tls"
 	"io"
 	"log"
 	"net"

@@ -6,7 +6,7 @@ import (
 	"encoding/base64"
 	"encoding/xml"
 	"fmt"
-	"github.com/MSOpenTech/packer-azure/packer/builder/azure/driver_restapi/settings"
+	"github.com/ttysteale/packer-azure/packer/builder/azure/driver_restapi/settings"
 	"io"
 	"io/ioutil"
 	"log"

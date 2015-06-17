@@ -9,7 +9,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/MSOpenTech/packer-azure/packer/builder/azure/driver_restapi/request"
+	"github.com/ttysteale/packer-azure/packer/builder/azure/driver_restapi/request"
 )
 
 var g_reqManager *request.Manager

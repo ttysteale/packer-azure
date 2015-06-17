@@ -5,7 +5,7 @@
 package main
 
 import (
-	"github.com/MSOpenTech/packer-azure/packer/provisioner/powershell"
+	"github.com/ttysteale/packer-azure/packer/provisioner/powershell"
 	"github.com/mitchellh/packer/packer/plugin"
 )
 

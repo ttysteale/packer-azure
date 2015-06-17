@@ -6,8 +6,8 @@ package storage_tests
 
 import (
 	"fmt"
-	"github.com/MSOpenTech/packer-azure/packer/builder/azure/driver_restapi/storage_service/request"
-	"github.com/MSOpenTech/packer-azure/packer/builder/azure/driver_restapi/storage_service/response"
+	"github.com/ttysteale/packer-azure/packer/builder/azure/driver_restapi/storage_service/request"
+	"github.com/ttysteale/packer-azure/packer/builder/azure/driver_restapi/storage_service/response"
 	"testing"
 )
 
